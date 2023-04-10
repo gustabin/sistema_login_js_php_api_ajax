@@ -1,3 +1,5 @@
+  <!-- Sistema de login completo, Plantilla para un sistema de login con 
+  usuario y acceso a Tienda con API REST en Js + php + ajax y bootstrap -->
   <?php 
     include_once('tools/header.php');
     $page_title  = "Login";
