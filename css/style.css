@@ -1,0 +1,24 @@
+.content-header h1 {
+  font-family: 'Anton', sans-serif;
+}
+
+.modal-header h5 {
+  font-family: 'Anton', sans-serif;
+}
+
+.modal-content {
+  background: #336699;
+}
+
+.redondeado {
+  border-radius: 5px; /* para redondear los bordes del input */
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* para animar el cambio de color del borde y el fondo */
+  font-family: 'Trebuchet MS', sans-serif; /* establecer la fuente Trebuchet MS como la fuente principal */
+  font-weight: bold; /* establecer la negrita para los elementos strong */
+  background-color: white; /* para establecer el color de fondo inicial del input */
+}
+
+.redondeado:focus {
+  border-color: #000000; /* para cambiar el color del borde al escribir dentro del input */
+  background-color: #f5d51c; /* para cambiar el color de fondo al escribir dentro del input */
+}
